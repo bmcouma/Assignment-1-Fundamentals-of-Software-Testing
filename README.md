@@ -1,42 +1,109 @@
-# Assignment-1-Fundamentals-of-Software-Testing
+🧠 Mastering the AI Toolkit – Solo Project 
 
-1. Importance of Software Testing in Software Development
+Welcome to my AI Toolkit Assignment – a hands-on journey through essential AI tools and frameworks. This solo project is a full-cycle demonstration of real-world AI problem-solving using Scikit-learn, TensorFlow, spaCy, and Streamlit. Every notebook here contains carefully executed code, insightful answers, and practical results.
 
-Software testing is a critical phase in the software development lifecycle. It ensures that a system meets its requirements, works as expected, and delivers a quality experience to the user. By testing thoroughly, developers can catch issues early, minimize risks, and reduce costs associated with fixing bugs later in production. Ultimately, software testing is not just about finding faults — it's about building confidence in the product.
+---
 
-2. Key Testing Concepts: Error, Defect, and Failure
+## 📁 Project Structure
 
-Error: A human mistake made by a developer during code writing or system design. For example, a miscalculated formula or wrong logic flow.
+```bash
+AI_Tools_Assignment/
+├── README.md
+├── notebooks/
+│   ├── part1_theory_answers.ipynb              # Theory questions + detailed explanations
+│   ├── part2_task1_sklearn_iris.ipynb          # ML: Iris classification using Scikit-learn
+│   ├── part2_task2_tensorflow_mnist.ipynb      # DL: CNN on MNIST using TensorFlow
+│   ├── part2_task3_spacy_reviews.ipynb         # NLP: Review analysis using spaCy
+│   └── part3_ethics_and_debugging.ipynb        # AI ethics + model debugging reflections
+├── assets/
+│   ├── screenshots/                            # Visuals from runs (e.g. graphs, metrics)
+│   └── sample_outputs/                         # Sample predictions and outputs
+├── report/
+│   └── AI_Tools_Report.pdf                     # Summary report covering methodology and outcomes
+├── deployment/
+│   └── streamlit_app.py                        # Streamlit app for digit recognition
+└── video/
+    └── group_presentation.mp4 (not included)   # *Note: No group video submitted for this project*
 
-Defect (Bug): A flaw in the software caused by an error. It might not be visible until the program is executed. It's what the testers find and log.
+#✅ What's Covered
 
-Failure: The visible result of a defect when the software doesn't behave as expected during execution. For instance, the system crashes or gives incorrect output.
+#🔹 Part 1: Theory and Concepts
 
-These three are interconnected — an error leads to a defect, and when that defect is executed, it may cause a failure.
+* Explained differences between major AI libraries like TensorFlow, PyTorch, and Scikit-learn
+* Discussed use cases, workflows, and real-world applications of Jupyter, spaCy, and others
+  📌 All answers provided inside: `notebooks/part1_theory_answers.ipynb`
 
-3. Principles of Software Testing: The Pesticide Paradox
 
-The Pesticide Paradox suggests that running the same set of tests repeatedly will not uncover new bugs. Just like pests become resistant to the same pesticide, software might pass the same tests even though new bugs exist.To overcome this, test cases must be regularly reviewed, updated, and diversified. This ensures we’re testing from fresh angles and not becoming blind to hidden defects.
+# 🔹 Part 2: Core Implementation Tasks
 
-4. Types of Testing Methodologies: Static vs Dynamic Testing
+#### Task 1: Scikit-learn – Iris Classification
 
-Static Testing: Involves examining code, documentation, and requirements without executing the program. This includes code reviews, walkthroughs, and inspections. It’s useful for catching syntax errors or design flaws early.
+* Classical ML using a Decision Tree Classifier
+* Included preprocessing, model training, evaluation, and visual results
 
-Dynamic Testing: Involves executing the code and observing its behavior. This helps detect issues related to performance, functionality, and runtime errors. Examples include unit testing, integration testing, and system testing.
+📍 File: `part2_task1_sklearn_iris.ipynb`
 
-Both types complement each other — static testing improves code quality early, while dynamic testing verifies behavior during execution.
 
-5. The Impact of Early Testing in the SDLC
+# Task 2: TensorFlow – MNIST CNN
 
-Testing early — right from the requirements and design phase — prevents issues from snowballing into costly bugs later. This is known as Shift-Left Testing.Early testing helps:
+* Built and trained a CNN to classify handwritten digits
+* Achieved high accuracy and displayed real-time predictions on test samples
 
-Identify ambiguous or incomplete requirements
+📍 File: `part2_task2_tensorflow_mnist.ipynb`
 
-Avoid design flaws
 
-Reduce rework during coding
 
-Save time and resources during the final stages
+#### Task 3: spaCy – Amazon Reviews NLP
 
-By making testing a continuous process instead of a final step, teams can deliver faster, better, and more reliable software.
+* Performed Named Entity Recognition and sentiment classification
+* Used rule-based logic for custom analysis and annotated outputs
+
+📍 File: `part2_task3_spacy_reviews.ipynb`
+
+
+# 🔹 Part 3: Ethics and Debugging
+
+* Identified potential bias in datasets and discussed fairness in AI
+* Included fixes for common TensorFlow bugs like shape mismatches and wrong optimizer use
+
+📍 File: `part3_ethics_and_debugging.ipynb`
+
+# 🌐 Bonus: Streamlit Web App
+
+Deployed a mini frontend using Streamlit to demo the MNIST CNN model:
+
+* Accepts digit drawings
+* Predicts using the trained model in real time
+
+📍 File: `deployment/streamlit_app.py`
+
+
+# 📎 Report
+ clean summary report of the full project, highlighting the tools used, logic applied, results achieved, and ethical considerations.
+
+📍 File: `report/AI_Tools_Report.pdf`
+
+
+# 🚫 Group Work 
+This was a *solo project*, not a group submission.
+---
+
+# 🧠 Tools Used
+
+* Python (Jupyter/Colab)
+* Scikit-learn
+* TensorFlow
+* spaCy
+* Streamlit
+* Matplotlib, NumPy, Pandas
+
+
+
+## 🧾 Final Word
+
+This project was more than just an assignment – it was a personal journey through the core of AI tools. Every notebook is functional, documented, and intentionally designed to reflect real understanding and smart execution. If you're exploring AI foundations, this repo is a solid, working example.
+
+**By Bravin Ouma**
+[GitHub](https://github.com/bmcouma) • [LinkedIn](https://linkedin.com/in/bravin-ouma) • [WhatsApp](https://wa.link/icn8vi)
+
 
